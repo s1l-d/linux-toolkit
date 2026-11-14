@@ -1,0 +1,2 @@
+*.sh text eol=if
+*.yml text eol=if
