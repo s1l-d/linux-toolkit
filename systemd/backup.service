@@ -1,0 +1,8 @@
+[Unit]
+Description=Backup with rotation (linux-toolkit)
+Documentation=https://github.com/s1l-d/linux-toolkit
+
+[Service]
+Type=oneshot
+ExecStart=/opt/linux-toolkit/scripts/backup.sh /etc /var/backups/myserver
+Nice=10
